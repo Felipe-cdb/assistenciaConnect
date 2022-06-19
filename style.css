@@ -128,7 +128,9 @@ section h4{
     margin-bottom: 4.5rem;
 }
 
-#home .buttonContact{
+#home .buttonContact, 
+#home a {
+    margin-bottom: 6rem;
     margin-inline: auto;
 }
 
@@ -529,11 +531,14 @@ footer .logoFooter, footer p, .social {
 }
 
 footer .contactDEV {
-    text-decoration: none;
     color: var(--brand-blue-light);
     font-weight: 400;
     font-size: 0.9rem;
     line-height: 1.2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
