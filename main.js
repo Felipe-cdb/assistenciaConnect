@@ -47,9 +47,11 @@ ScrollReveal().reveal(`
     #services,
     #services header,
     #services .card,
+    #about,
     #about header,
     #about img,
     #contact,
+    #contact header,
     #contact .content,
     #contact img,
     footer
