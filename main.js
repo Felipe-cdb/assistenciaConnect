@@ -3,7 +3,6 @@ window.addEventListener('scroll', onScroll);
 onScroll();
 // ajustar as funções onScroll, show, fazer uma nova com as funcionalidades do onScroll e colocar essa nova e show dentro de onScroll
 function onScroll() {
-    console.log(scrollY);
     navBarScroll();
     backToTopButtonShow();
 }
