@@ -529,7 +529,8 @@ footer .logoFooter, footer p, .social {
 }
 
 footer .contactDEV {
-
+    text-decoration: none;
+    color: var(--brand-blue-light);
     font-weight: 400;
     font-size: 0.9rem;
     line-height: 1.2rem;
