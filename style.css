@@ -77,6 +77,34 @@ section h4{
     text-transform: uppercase;
 }
 
+.buttonContact {
+    background: var(--primary-color);
+    border-radius: 4rem;
+    padding: 1.6rem 3.2rem;
+    width: fit-content;
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    text-transform: uppercase;
+    color: var(--secondary-color);
+
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    justify-content: center;
+
+    transition: background 150ms;
+}
+
+.buttonContact:hover {
+    background-color: var(--secondary-color);
+    border: solid var(--primary-color);
+    color: var(--primary-color);
+    stroke: var(--primary-color);
+}
+
 /* #########-----------Home--------------########### */
 #home {        
     padding-top: calc(4rem + var(--nav-height));
@@ -483,35 +511,6 @@ body.menu-expanded .logomarca path:nth-child(7){
     font-size: 3.0rem;
     line-height: 3.9rem;
     color: var(--gray-headline);
-}
-
-
-#contact .buttonContact{
-    background: var(--primary-color);
-    border-radius: 4rem;
-    padding: 1.6rem 3.2rem;
-    width: fit-content;
-    
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.4rem;
-    line-height: 1.8rem;
-    text-transform: uppercase;
-    color: var(--secondary-color);
-
-    display: flex;
-    align-items: center;
-    gap: 1.6rem;
-    justify-content: center;
-
-    transition: background 150ms;
-}
-
-#contact .buttonContact:hover {
-    background-color: var(--secondary-color);
-    border: solid var(--primary-color);
-    color: var(--primary-color);
-    stroke: var(--primary-color);
 }
 
 #contact .buttonContact, a{
