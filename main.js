@@ -52,6 +52,5 @@ ScrollReveal().reveal(`
     #contact,
     #contact .content,
     #contact img,
-    footer,
-    footer .bandeiras
+    footer
 `);
