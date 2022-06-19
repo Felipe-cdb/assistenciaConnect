@@ -46,5 +46,12 @@ ScrollReveal().reveal(`
     home .timeTable, 
     #services,
     #services header,
-    #services .card
+    #services .card,
+    #about,
+    #about img,
+    #contact,
+    #contact .content,
+    #contact img,
+    footer,
+    footer .bandeiras
 `);

@@ -525,6 +525,7 @@ body.menu-expanded .logomarca path:nth-child(7){
 /* #########-----------Footer--------------########### */
 footer {
     background-color: var(--primary-color);
+    color: var(--brand-blue-light);
 }
 
 footer .logoFooter, footer p, .social {
@@ -552,8 +553,11 @@ footer .logoFooter, footer p, .social {
     width: min(45rem, 100%);
 }
 
-footer a {
-    color: var(--brand-blue-light);
+footer .contactDEV {
+
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
 }
 
 
